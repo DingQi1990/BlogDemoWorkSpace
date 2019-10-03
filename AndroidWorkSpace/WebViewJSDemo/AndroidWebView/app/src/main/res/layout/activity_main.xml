@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--js和原生相互通信-->
+    <Button
+        android:id="@+id/bt_go_h5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="进入h5界面"/>
+
+    <!--第三方库实现 js和原生相互通信-->
+    <Button
+        android:id="@+id/bt_go_h52"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="进入h52界面"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AndroidWebView</string>
+
+    <string name="button_name">Java调用Web</string>
+</resources>
